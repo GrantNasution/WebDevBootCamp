@@ -7,27 +7,27 @@
         <h1>Register</h1>
         <form action="https:://wikipedia.org" method="get">
             <label for="firstName">First Name:</label>
-            <input name="firstName" type="text" placeholder="John" required>
+            <input id="firstName" name="firstName" type="text" placeholder="John" required>
             <label for="lastName">Last Name:</label>
-            <input name="lastName" type="text" placeholder="Smith" required>
+            <input id="lastName" name="lastName" type="text" placeholder="Smith" required>
             <br>
 
-            <label for="gender">Male</label>
-            <input name="gender" type="radio" value="male">
-            <label for="gender">Female</label>
-            <input name="gender" type="radio" value="female">
-            <label for="gender">Other</label>
-            <input name="gender" type="radio" value="other">
+            <label for="genderMale">Male</label>
+            <input id="genderMale" name="gender" type="radio" value="male">
+            <label for="genderFemale">Female</label>
+            <input id="genderFemale" name="gender" type="radio" value="female">
+            <label for="genderOther">Other</label>
+            <input id="genderOther" name="gender" type="radio" value="other">
             <br>
 
             <label for="email">Email:</label>
-            <input name="email" type="email" placeholder="your email" required>
+            <input id="email" name="email" type="email" placeholder="your email" required>
             <label for="password">Password:</label>
-            <input name="password" type="password" placeholder="your password" minLength="5" maxlength="10" size="10" required>
+            <input id="password" name="password" type="password" placeholder="your password" minLength="5" maxlength="10" size="10" required>
             <br>
 
             <label for="birthday_day">Birthday:</label>
-            <select name="birthday_day">
+            <select id="birthday_day" name="birthday_day">
                 <option>Day</option>
                 <option val="1">1</option>
                 <option val= "2">2</option>
@@ -44,7 +44,7 @@
             <br>
 
             <label for="tos">I agree to the terms and conditions</label>
-            <input name="tos" type="checkbox">
+            <input id="tos" name="tos" type="checkbox">
             <br>
 
             <button>submit</button>
