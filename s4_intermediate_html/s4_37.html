@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dropdown and Radio Buttons</title>
+</head>
+
+<body>
+    <p>Do you prefer cats or dogs?</p>
+    <form>
+        <label for="cats">Cats</label>
+        <!--Radio buttons can only select one option-->
+        <input name="petPref" id="cats" type="radio" value="cat">
+        <label for="dogs">Dogs</label>
+        <input name="petPref" id="dogs" type="radio" value="dog">
+        <p>What's your favorite color?</p>
+        <select name="color">
+            <option>Red</option>
+            <option>Orange</option>
+            <option>Yellow</option>
+            <option>Green</option>
+            <option>Blue</option>
+            <option>Purple</option>
+        </select>
+        <p>What's your current mood?</p>
+        <select name="mood">
+            <option value="happy">:)</option>
+            <option value="sad">:(</option>
+            <option value="neutral">:|</option>
+            <option value="spicy">',:)</option>
+        </select>
+        <p>Speak your mind!</p>
+        <textarea name="mind" rows="5" cols="25"></textarea>
+        <br>
+        <button>submit</button>
+    </form>
+</body>
+
+</html>
