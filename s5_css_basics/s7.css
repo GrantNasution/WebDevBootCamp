@@ -1,0 +1,29 @@
+/* Three different methods for setting colors */
+/* Hexadecimal */
+h1 {
+    color: #FF00FF;
+    background: #00FF00;
+    /* All three border properties must be present to have a border */
+    border-color: #0000FF;
+    border-width: 5px;
+    border-style: solid;
+    
+    /* Border syntax shortcut */
+    /* border: 2px dashed #0000FF; */
+   
+}
+/* rgb function */
+h4 {
+    color: rgb(0,125,255);
+}
+/* rgba function 
+   4th input ranges 0-1, 1 = opaque and 0 = transparent
+*/
+li {
+    color: rgba(125,0,125, 0.90);
+}
+body {
+    background: url(https://www.crescentcityjewishnews.com/blog/wp-content/uploads/2020/06/flames.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
