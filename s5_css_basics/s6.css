@@ -1,0 +1,15 @@
+/* Three different methods for setting colors */
+/* Hexadecimal */
+h1 {
+    color: #FF00FF;
+}
+/* rgb function */
+h4 {
+    color: rgb(0,125,255);
+}
+/* rgba function 
+   4th input ranges 0-1, 1 = opaque and 0 = transparent
+*/
+li {
+    color: rgba(125,0,125, 0.90);
+}
