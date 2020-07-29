@@ -1,0 +1,18 @@
+body {
+    background: orange;
+}
+li {
+    border: 2px solid blue;
+}
+
+/* ID selector can only be used once in an html file */
+#special {
+    background: green;
+}
+
+/* Class selector can be used multiple times in an html file */
+.completed {
+    background: red;
+    text-decoration: line-through;
+}
+
