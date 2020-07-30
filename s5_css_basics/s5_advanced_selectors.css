@@ -1,0 +1,57 @@
+/* Elements */
+li {
+    background: orange;
+}
+
+/* Class */
+.classSel {
+    background: purple;
+}
+
+/* id */
+#name {
+    background: blue;
+}
+
+/* Star */
+/* Selects every element */
+ * {
+    border: 1px solid black;
+ }
+
+/* Descendant Selector */
+/* Selects an element that is a descendent of a parent element*/
+/* ex) selects <a> tags that are descendants of <li> tags */
+li a {
+    background: green;
+}
+/* ex) selects elements of class .classSel that are descendants of <li> tags  */
+li .classSel {
+    color: white;
+}
+
+/* Adjacent Selector */
+/* Selects elements adjacent to a specified element */
+/* ex) selects <ul> tags that are adjacent(directly after) to <h4> tags */
+h4 + ul {
+    border: 2px solid red;
+}
+
+/* Attribute Selector */
+/* Select elements of any attribute */
+/* ex) select all href attributes = to a value*/
+a[href="https://www.youtube.com/watch?v=f_JygUgiweI"] {
+    background: rgb(255, 233, 106);
+}
+
+/* nth of type */
+/* Selects every nth of a specific element */
+/* Selects every 3rd ul */
+ul:nth-of-type(3){
+    background: red;
+    border: 4px dashed violet;
+}
+/* Selects 3rd <li> in a given group */
+li:nth-of-type(3){
+    border: 2px solid white;
+}
