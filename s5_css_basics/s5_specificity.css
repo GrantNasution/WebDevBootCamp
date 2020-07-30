@@ -1,0 +1,26 @@
+/* Specificity */
+
+/* Specificity: all elements in body are "inheriting" this style 
+   but multiple styles can be effecting any given element 
+   <h1> inherits a color from body but is also being applied a color
+   Therefore css has to determine which one wins */
+   /* ID's > Classes/Attributes > Elements */
+body {
+    color: red;
+}
+
+h1 {
+    color: green;
+}
+
+ul {
+    color: black;
+}
+
+li {
+    color: lime;
+}
+
+.highlight {
+    color: purple;
+}
