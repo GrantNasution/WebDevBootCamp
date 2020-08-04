@@ -4,7 +4,7 @@
    but multiple styles can be effecting any given element 
    <h1> inherits a color from body but is also being applied a color
    Therefore css has to determine which one wins */
-   /* ID's > Classes/Attributes > Elements */
+   /* ID's > Classes/Attributes/Psuedo-Class > Elements */
 body {
     color: red;
 }
