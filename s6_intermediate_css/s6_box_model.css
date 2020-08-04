@@ -1,0 +1,25 @@
+p {
+    text-align: center;
+    /* Content: Width and Height */
+    /* width = 50% of parent element */
+    width: 50%;
+
+    /* Border */
+    border: 2px solid green;
+
+    /* Padding */
+    /* Sets padding for the left of content only */
+    padding-left: 40px;
+    /* Sets padding for all sides of content
+    padding: 10px; */
+
+    /* Margin */
+    /* Margin can be set for specific sides like padding
+    margin-top: 50px;
+    margin-left: 25%; */
+    /* top, right, bottom, left 
+    margin: 50px 1em 1em 25%; */
+    /* Top and bottom 0, left and right auto */
+    margin: 0 auto;
+
+}
