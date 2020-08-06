@@ -1,0 +1,43 @@
+body {
+    background: #131415;
+    text-align: center;
+    width: 75%;
+    margin: 5% 12.5%;
+    border: 20px solid #fff242;
+}
+
+h2 {
+    color: #eff2f5;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+p {
+    font-weight: 400;
+}
+
+hr {
+    border: 1px solid #4a4d4f;
+}
+
+.post {
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    margin: 2% 2%;
+    color: #b0b3b5;
+    padding: 0;
+}
+
+.date {
+    text-transform: uppercase;
+    color: #6898f1;
+    letter-spacing: 0.2em;
+}
+
+.preamble {
+    border-left: 5px solid  #4a4d4f;
+    padding-left: 0.5%;
+}
+
+
+
