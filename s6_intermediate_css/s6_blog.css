@@ -1,7 +1,8 @@
 body {
     background: #131415;
+    max-width: 900px;
     width: 75%;
-    margin: 5% 12.5%;
+    margin: 5% auto;
     border: 20px solid #fff242;
 }
 
