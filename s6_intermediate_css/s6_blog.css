@@ -9,7 +9,7 @@ body {
 h2 {
     color: #eff2f5;
     font-weight: 700;
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 p {
@@ -31,7 +31,7 @@ hr {
 .date {
     text-transform: uppercase;
     color: #6898f1;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.2rem;
 }
 
 .preamble {
