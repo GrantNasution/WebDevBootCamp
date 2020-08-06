@@ -3,7 +3,7 @@ body {
     max-width: 900px;
     width: 75%;
     margin: 5% auto;
-    border: 20px solid #fff242;
+    border: 20px solid #4a4d4f;
 }
 
 h2 {
@@ -35,7 +35,7 @@ hr {
 }
 
 .preamble {
-    border-left: 5px solid  #4a4d4f;
+    border-left: 5px solid  #fff242;
     padding-left: 0.5%;
 }
 
