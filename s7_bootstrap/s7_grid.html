@@ -12,6 +12,10 @@
             background: pink;
             border: 1px solid purple;
         }
+        .cellOrange {
+            background: orange;
+            border: 1px solid red;
+        }
     </style>
 </head>
 <body>
@@ -27,19 +31,39 @@
             <div class="col-lg-6 cell">Much Love</div>
             <div class="col-lg-6 cell">Holding it down in Pheonix</div>
         </div>
+
+        <!-- When width is large and medium take up 3 units, when small take up 6 units -->
         <div class="row">
-            <div class="col-lg-1 cell">w</div>
-            <div class="col-lg-1 cell">w</div>
-            <div class="col-lg-1 cell">w</div>
-            <div class="col-lg-1 cell">w</div>
-            <div class="col-lg-1 cell">w</div>
-            <div class="col-lg-1 cell">w</div>
-            <div class="col-lg-1 cell">w</div>
-            <div class="col-lg-1 cell">w</div>
-            <div class="col-lg-1 cell">w</div>
-            <div class="col-lg-1 cell">w</div>
-            <div class="col-lg-1 cell">w</div>
-            <div class="col-lg-1 cell">w</div>
+            <div class=" col-md-3 col-sm-6 cell">MN</div>
+            <div class=" col-md-3 col-sm-6 cell">NM</div>
+            <div class=" col-md-3 col-sm-6 cell">MN</div>
+            <div class=" col-md-3 col-sm-6 cell">NM</div>
+        </div>
+
+        <!-- When width is large take up 1 unit, when width is medium take up 2 units -->
+        <div class="row">
+            <div class="col-lg-1 col-md-2 cell">w</div>
+            <div class="col-lg-1 col-md-2 cell">w</div>
+            <div class="col-lg-1 col-md-2 cell">w</div>
+            <div class="col-lg-1 col-md-2 cell">w</div>
+            <div class="col-lg-1 col-md-2 cell">w</div>
+            <div class="col-lg-1 col-md-2 cell">w</div>
+            <div class="col-lg-1 col-md-2 cell">w</div>
+            <div class="col-lg-1 col-md-2 cell">w</div>
+            <div class="col-lg-1 col-md-2 cell">w</div>
+            <div class="col-lg-1 col-md-2 cell">w</div>
+            <div class="col-lg-1 col-md-2 cell">w</div>
+            <div class="col-lg-1 col-md-2 cell">w</div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 col-sm-6 cell">
+                <div class="col-xs-6 cellOrange">1st</div>
+                <div class="col-xs-6 cellOrange">2nd</div>
+            </div>
+            <div class="col-md-3 col-sm-6 cell">Playing</div>
+            <div class="col-md-3 col-sm-6 cell">Kid</div>
+            <div class="col-md-3 col-sm-6 cell">Pix</div>
         </div>
     </div>
 </body>
