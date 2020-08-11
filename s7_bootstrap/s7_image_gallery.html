@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>California Gallery</title>
+
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="s7_image_gallery.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header brandNav">
+                <!-- Data target = #(id of collapsable div) -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <!-- 3 bar(hamburger) glyph -->
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- Typically header navigates back to homepage -->
+                <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> IMGS</a>
+            </div>
+            <div class="collapse navbar-collapse" id="nav-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">About</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Sign Up</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>California National Parks Gallery</h1>
+            <p>Pictures showcasing the national parks in California</p>
+        </div>
+
+        <!-- Image Gallery -->
+        <div class="row flex">
+            <!-- Row 1 -->
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1585094482292-22b9ffb54d32?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+                        alt="Cholla Cactuses">
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1547853160-a2ed4849e242?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+                        alt="Joshua Tree Landscape">
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1548625288-5749ebacb323?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+                        alt="Lone Joshua Tree">
+                </div>
+            </div>
+
+            <!-- Row 2 -->
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1582093516715-fb2a7af5a722?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80"
+                        alt="Channel Islands">
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1595730529953-a70109dd14a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80"
+                        alt="River in Yosemite">
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1586541160209-1cfc554a0315?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                        alt="Dawn Wall in Yosemite">
+                </div>
+            </div>
+
+            <!-- Row 3 -->
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1529025797902-c04dc9523016?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                        alt="Giant Sequoia's">
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1443904937088-c78596930a69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80"
+                        alt="Mojave Desert Landscape">
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1552365955-662f8fa8031f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80"
+                        alt="Death Valley Landscape">
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+<!-- Icons made by <a href="http://www.google.com/" title="Google">Google</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> -->
+
+</html>
